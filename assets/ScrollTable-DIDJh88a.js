@@ -1,0 +1,1 @@
+import{r as e}from"./PageHead-GFafxc8f.js";var t=e();function n({label:e,className:n,children:r}){return(0,t.jsx)(`div`,{className:n?`table-wrap ${n}`:`table-wrap`,role:`region`,tabIndex:0,"aria-label":e,children:r})}export{n as t};

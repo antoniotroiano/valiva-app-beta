@@ -1,0 +1,1 @@
+var e=[`pessimistic`,`neutral`,`optimistic`];export{e as t};

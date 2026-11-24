@@ -1,0 +1,1 @@
+function e(e,t){let n=n=>e(n/100)>=t-1e-9;if(n(0))return{status:`already_reached`,monthly:0};let r=1e8,i=100;for(;!n(i);){if(i>=r)return{status:`unreachable`,monthly:0};i=Math.min(i*2,r)}let a=0;for(;i-a>1;){let e=Math.floor((a+i)/2);n(e)?i=e:a=e}return{status:`ok`,monthly:i/100}}export{e as t};

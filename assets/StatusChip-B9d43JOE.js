@@ -1,0 +1,1 @@
+import{i as e}from"./index-C-Kdnw0K.js";import{r as t}from"./PageHead-GFafxc8f.js";var n=t(),r={ok:`ok`,hint:`info`,warn:`warn`,error:`error`};function i({kind:t,children:i,size:a}){return(0,n.jsxs)(`span`,{className:`chip ${t}${a?` ${a}`:``}`,children:[(0,n.jsx)(e,{name:r[t],size:`sm`}),i]})}export{i as t};
